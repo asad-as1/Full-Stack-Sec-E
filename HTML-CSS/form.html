@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form>
+            <div>
+                <label for="f-name">First Name</label>
+                <input type="text" id="f-name" placeholder="Enter First Name">
+            </div> <br>
+            <div>
+                <label for="l-name">Last Name</label>
+                <input type="text" id="l-name" placeholder="Enter Last Name">
+            </div> <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email Address">
+            </div> <br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div> <br>
+            <div>
+                <label for="gender">Gender :</label> <br>
+                Male<input type="radio" name="gen">
+                Female<input type="radio" name="gen">
+                Other<input type="radio" name="gen">
+            </div> <br>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age">
+            </div> <br>
+            <div>
+                Prefrences: <br>
+                <label for="">Arcylic Painting</label>
+                <input type="checkbox"><br>
+                <label for="">Oil Painting</label>
+                <input type="checkbox"><br>
+                <label for="">Water Color Painting</label>
+                <input type="checkbox">
+            </div> <br>
+            <div>
+                <label for="occ" >Select Occupation</label>
+                <select name="occ" id="occ">
+                    <option value="Student">Student</option>
+                    <option value="Student">Teacher</option>
+                    <option value="Student">HOD</option>
+                </select>
+            </div> <br>
+            <div>
+                <label for="bio">Bio</label> &nbsp;
+                <textarea id="bio" cols="30" rows="5" placeholder="write something here"></textarea>
+            </div> <br>
+        </form>
+        <button type="reset">Reset</button> &nbsp;
+        <button >Submit</button>
+    </fieldset>
+</body>
+</html>

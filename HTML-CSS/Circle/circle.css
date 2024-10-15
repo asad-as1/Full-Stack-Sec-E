@@ -1,0 +1,36 @@
+.con {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1 {
+    height: 500px;
+    width: 500px;
+    /* color: red; */
+    background-color: red;
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c2 {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position absolute; */
+}
+
+.c3 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border-radius: 50%;
+    /* position absolute; */
+}
