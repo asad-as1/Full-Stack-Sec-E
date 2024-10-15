@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    width: 100%;
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.h {
+    font-size: 40px;
+}
+.r {
+    display: flex;
+    gap: 20px;
+}
+.r a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.r a:hover {
+    color: rgb(255, 217, 0);
+}
+
+.img1 {
+    width: 100%;
+    height: 500px;
+}
+.hi {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+span {
+    color: yellow;
+}
+.btn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: rgb(255, 174, 0);
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.ri img {
+    width: 300px;
+    height: 500px;
+}
+.p1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.p2 {
+    margin-bottom: 30px;
+}
+
+.im3 {
+    width: 100%;
+    height: 400px;
+}
+.thi {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.s2 {
+
+    color: yellow;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer h3 {
+    color: white;
+}
+.f2 {
+    margin: 30px;
+    text-align: center; 
+}
+
+.n {
+    display: flex;
+    justify-content: space-around;
+}
+.n a {
+    text-decoration: none;
+    color: rgb(255, 196, 0);
+}
+
+.d5 {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.k {
+    display: flex;
+    flex-direction: column;
+}
+
+.k img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.ya {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
