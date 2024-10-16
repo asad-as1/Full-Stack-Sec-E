@@ -264,9 +264,5 @@ footer a{
 
 
 button:hover, a:hover{
-    background-color: gray;
-    
-    padding: 3px;
-    border-radius: 5px;
     cursor: pointer;
 }
