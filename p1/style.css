@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+    margin: 20px;
+    /* position: fixed; */
+
+}
+header .l {
+    display: flex;
+    gap: 20px;
+}
+header a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+header button {
+    padding: 5px 7px;
+    cursor: pointer;
+}
+
+.top {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1728209150875-538e6ffa0aae?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.top h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.about {
+    margin: 7px 15px;
+}
+
+.about h1, .p1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.lr {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 20px;
+    
+}
+
+.lr .l {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+
+.lr .r {
+    margin-right: 15px;
+}
+
+.lr .l img {
+    margin-top: 30px;
+    height: 200px;
+}
+
+
+.about, .skills, .statistics {
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.skills h2, .statistics h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 20px;
+    background-color: #333;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 18px;
+}
+
+.i3 {
+    background-image: url("https://images.unsplash.com/photo-1729066390688-7aaeb3200146?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 300px;
+    width: 100%;
+    margin-top: -20px;
+    /* object-fit: contain; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work h1 {
+    margin-bottom: 30px;
+}
+.im8 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 40px;
+    /* gap: 30px; */
+}
+
+.img4 {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.img4 img {
+    height: 150px;
+    width: 150px;
+}
+
+.im8 button {
+    margin: 30px;
+    padding: 20px;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1727513029520-1eb6afa954d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.contact-section {
+    /* width: 100%; */
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-info img {
+    height: 250px;
+    width: 250px;
+}
+
+.contact-info h2 {
+    
+}
+
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    height: 400px;
+}
+.form button {
+    padding: 10px;
+}
+
+input {
+    padding: 8px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+
+.f {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+button:hover, a:hover{
+    background-color: gray;
+    
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
