@@ -86,4 +86,11 @@ searchInput.addEventListener("input", function () {
   renderPoli(filteredRecipes);
 });
 
+recipesContainer.addEventListener("click", function (event) {
+
+  // const recipeCard = event.target;
+  // recipesContainer.appendChild(event.target)
+  console.log(event.target)
+})
+
 fetchR();
